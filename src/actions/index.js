@@ -52,7 +52,7 @@ export const filtersFetchingError = () => {
 
 export const activeFilterChanged = (filter) => {
     return {
-        type: 'ACTIVE_FILTERS_CHANGED',
+        type: 'ACTIVE_FILTER_CHANGED',
         payload: filter
     }
 };
